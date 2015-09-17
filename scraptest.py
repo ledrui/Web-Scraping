@@ -18,7 +18,7 @@ def getTitle(url):
 
 	return title
 
-title = getTitle("http://webapplog.com/test-driven-development-in-node-js-with-mocha")
+title = getTitle("http://unfoldingmaps.org/exhibition/index.html")
 
 if title == None:
 	print("Title could not be found")
