@@ -18,7 +18,7 @@ def getTitle(url):
 
 	return title
 
-title = getTitle("http://unfoldingmaps.org/exhibition/index.html")
+title = getTitle("https://casper.com/mattresses")
 
 if title == None:
 	print("Title could not be found")
